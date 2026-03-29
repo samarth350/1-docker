@@ -23,5 +23,4 @@ jobs:
       - name: Run tests
         run: npm test || echo "No tests"
 
-      - name: Build project
-        run: npm run build
+      

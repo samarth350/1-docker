@@ -23,4 +23,6 @@ jobs:
       - name: Run tests
         run: npm test || echo "No tests"
 
+      - run: docker build -t my-app .
+
       

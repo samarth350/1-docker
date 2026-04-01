@@ -4,7 +4,7 @@ const app = express();
 console.log("🔥 NEW CODE RUNNING 🔥");
 
 app.get("/", (req, res) => {
-    res.send("Home working");
+    res.send("Home");
 });
 
 // basic API route
